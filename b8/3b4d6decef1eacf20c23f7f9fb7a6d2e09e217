@@ -1,0 +1,27 @@
+README.md
+  c1d219785be6c35b 24-25
+docs/imported-qwen/docs/EVOLUTION_AND_ITEM_HISTORY.md
+  c1d219785be6c35b 188-244
+docs/imported-qwen/IMPORT_PROVENANCE.md
+  c1d219785be6c35b 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "b83b4d6decef1eacf20c23f7f9fb7a6d2e09e217",
+  "prompts": {
+    "c1d219785be6c35b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "88a9989f-080e-4ccd-8041-ff0ea7466f18",
+        "model": "default"
+      },
+      "human_author": "GPTJunkie",
+      "messages": [],
+      "total_additions": 18,
+      "total_deletions": 2,
+      "accepted_lines": 18,
+      "overriden_lines": 0
+    }
+  }
+}
