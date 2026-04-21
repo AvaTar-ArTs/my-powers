@@ -34,11 +34,17 @@ export async function generateCommands() {
   await fs.mkdir(commandsDir, { recursive: true });
 
   try {
-    const skillDirs = await fs.readdir(skillsDir);
+    const skillEntries = await fs.readdir(skillsDir, { withFileTypes: true });
     let generated = 0;
     let skipped = 0;
 
-    for (const skillDir of skillDirs) {
+    for (const entry of skillEntries) {
+      // Ignore non-directories and hidden filesystem artifacts like .DS_Store.
+      if (!entry.isDirectory() || entry.name.startsWith('.')) {
+        continue;
+      }
+
+      const skillDir = entry.name;
       const skillFile = path.join(skillsDir, skillDir, 'SKILL.md');
 
       try {
