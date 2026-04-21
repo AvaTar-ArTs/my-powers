@@ -1,0 +1,10 @@
+description = "Single reference for how Supremepower/Cursor skills, agents, and the multi-ecosystem map fit together. Use when coordinating across Qwen/Gemini/Codex/Cursor, when creating skills or agents, when cleaning ecosystem bloat, or when the user asks how everything connects."
+prompt = """
+I'm using the ecosystem-clarity skill.
+
+${input}
+"""
+
+[[context]]
+type = "file"
+path = "skills/ecosystem-clarity/SKILL.md"

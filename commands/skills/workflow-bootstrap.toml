@@ -1,0 +1,10 @@
+description = "Defines mandatory workflows and where Supremepower/Gemini capabilities live. Use when starting creative work, multi-step implementation, or when the user asks how skills and agents are organized. Ensures brainstorm before coding and plan-before-implement discipline."
+prompt = """
+I'm using the workflow-bootstrap skill.
+
+${input}
+"""
+
+[[context]]
+type = "file"
+path = "skills/workflow-bootstrap/SKILL.md"
