@@ -1,0 +1,47 @@
+docs-site/src/pages/index.tsx
+  c1d219785be6c35b 24-42
+docs-site/docs/skills-and-agents.md
+  c1d219785be6c35b 1-57
+docs-site/sidebars.ts
+  c1d219785be6c35b 16-25
+docs-site/docs/getting-started.md
+  c1d219785be6c35b 1-73
+docs-site/docs/architecture.md
+  c1d219785be6c35b 1-48
+docs-site/docs/ecosystem-map.md
+  c1d219785be6c35b 1-36
+docs-site/src/components/HomepageFeatures/index.tsx
+  c1d219785be6c35b 14-39
+docs-site/docs/hooks-and-flows.md
+  c1d219785be6c35b 1-70
+docs-site/docusaurus.config.ts
+  c1d219785be6c35b 8-138
+docs-site/docs/platforms.md
+  c1d219785be6c35b 1-60
+docs-site/docs/changelog-and-releases.md
+  c1d219785be6c35b 1-34
+docs-site/docs/contributing-docs.md
+  c1d219785be6c35b 1-45
+docs-site/docs/intro.mdx
+  c1d219785be6c35b 3-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "a2859535677ce9551428b5b65a059dee2e6fad26",
+  "prompts": {
+    "c1d219785be6c35b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "88a9989f-080e-4ccd-8041-ff0ea7466f18",
+        "model": "default"
+      },
+      "human_author": "GPTJunkie",
+      "messages": [],
+      "total_additions": 496,
+      "total_deletions": 93,
+      "accepted_lines": 496,
+      "overriden_lines": 0
+    }
+  }
+}
