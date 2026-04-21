@@ -1,0 +1,35 @@
+CHANGELOG.md
+  c1d219785be6c35b 1-29
+RELEASE-NOTES.md
+  c1d219785be6c35b 3-48
+README.md
+  c1d219785be6c35b 106,133,205-212
+skills/using-superpowers/SKILL.md
+  c1d219785be6c35b 52-66
+docs/changelogs/2026-04-20-ecosystem-and-flow-reliability.md
+  c1d219785be6c35b 1-86
+core/skills/using-superpowers/SKILL.md
+  c1d219785be6c35b 52-66
+docs/README.md
+  c1d219785be6c35b 1-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "1deb735115e1dc6221be935a03ef027d53f212d8",
+  "prompts": {
+    "c1d219785be6c35b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "88a9989f-080e-4ccd-8041-ff0ea7466f18",
+        "model": "default"
+      },
+      "human_author": "GPTJunkie",
+      "messages": [],
+      "total_additions": 239,
+      "total_deletions": 3,
+      "accepted_lines": 239,
+      "overriden_lines": 0
+    }
+  }
+}
