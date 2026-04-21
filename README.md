@@ -21,6 +21,8 @@ SupremePower integrates with multiple AI coding platforms through platform-speci
 
 **Choose your platform above for detailed installation and usage guides.**
 
+Qwen-oriented governance and index Markdown (copies only; originals stay under `~/.qwen`) live in **[`docs/imported-qwen/`](docs/imported-qwen/README.md)** with paths rewritten to this clone where applicable.
+
 ## Quick Start by Platform
 
 ### Gemini CLI
