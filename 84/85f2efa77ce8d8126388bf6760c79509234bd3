@@ -1,0 +1,23 @@
+docs/ECOSYSTEM_MAP.md
+  c1d219785be6c35b 21,30,38-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "8485f2efa77ce8d8126388bf6760c79509234bd3",
+  "prompts": {
+    "c1d219785be6c35b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "88a9989f-080e-4ccd-8041-ff0ea7466f18",
+        "model": "default"
+      },
+      "human_author": "GPTJunkie",
+      "messages": [],
+      "total_additions": 20,
+      "total_deletions": 1,
+      "accepted_lines": 20,
+      "overriden_lines": 0
+    }
+  }
+}
