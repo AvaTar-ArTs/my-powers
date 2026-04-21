@@ -29,6 +29,8 @@ One-page reference for where SupremePower / superpowers-style assets live on thi
 | 2026-04-21 | `~/.codex/superpowers` | `/Users/steven/iterm2/superpowers` | `/Users/steven/supremepowers` |
 | 2026-04-21 | `~/.cursor/skills/*` (superpowers set) | `/Users/steven/iterm2/superpowers/skills/…` | `/Users/steven/supremepowers/skills/…` |
 
+**Codex `qwen-integration` docs (host copy, not in git):** active `*.md` under `~/.codex/qwen-integration/` that still referenced `~/iterm2/superpowers` or `/Users/steven/iterm2/superpowers` were rewritten to `/Users/steven/supremepowers` (13 files, 2026-04-21). **`~/.codex/qwen-integration/rules/superpowers.mdc`** was updated so Cursor/Codex instructions match the symlinked layout (`~/.codex/superpowers/.codex/superpowers-codex` instead of the old `superpowers-codex-product` paths). Historical `.txt` transcripts under `references/` may still mention `iterm2/superpowers` by design.
+
 If Codex or tooling misbehaves after the switch, restore with:
 
 `ln -sfn /Users/steven/iterm2/superpowers /Users/steven/.codex/superpowers`
