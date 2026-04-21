@@ -1,0 +1,25 @@
+scripts/generate-commands.js
+  c1d219785be6c35b 37,41-47
+.codex/package.json
+  c1d219785be6c35b 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "07a46f5991bb63d5d667ba67adc6109094b0f0ce",
+  "prompts": {
+    "c1d219785be6c35b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "88a9989f-080e-4ccd-8041-ff0ea7466f18",
+        "model": "default"
+      },
+      "human_author": "GPTJunkie",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 2,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    }
+  }
+}
