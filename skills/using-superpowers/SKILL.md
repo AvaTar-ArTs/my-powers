@@ -49,6 +49,21 @@ Skills use Claude Code tool names. Non-CC platforms: see `references/copilot-too
 
 **Invoke relevant or requested skills BEFORE any response or action.** Even a 1% chance a skill might apply means that you should invoke the skill to check. If an invoked skill turns out to be wrong for the situation, you don't need to use it.
 
+## Interaction Rhythm (arrow style)
+
+Use this compact interaction rhythm for real conversations:
+
+- `User asks -> check for applicable skills -> invoke skill`
+- `Skill loaded -> announce usage briefly -> execute checklist/flow`
+- `Blocked -> gather missing evidence -> continue flow`
+- `Flow complete -> verify outputs/tests -> respond with result`
+
+For implementation-heavy requests, keep this higher-order rhythm:
+
+- `brainstorming -> writing-plans -> test-driven-development -> requesting-code-review -> verification-before-completion -> finishing-a-development-branch`
+
+Never skip the first transition (`request -> skill check`) even when the request seems simple.
+
 ```dot
 digraph skill_flow {
     "User message received" [shape=doublecircle];

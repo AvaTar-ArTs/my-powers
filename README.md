@@ -103,7 +103,7 @@ All platforms share 14 Superpowers skills:
 - **using-superpowers** - Meta-skill for discovering and using skills
 - **writing-skills** - TDD methodology for creating new skills
 
-**[→ Detailed Skill Reference](docs/skills-reference.md)**
+**Skill references:** browse `skills/` and `core/skills/` (see `docs/README.md` for doc map).
 
 ## Agent Personas
 
@@ -130,7 +130,7 @@ All platforms share 14 Superpowers skills:
 - **Code Reviewer** - Code quality, best practices, maintainability analysis
 - **Technical Writer** - Documentation, API docs, tutorials, user guides
 
-**[→ Detailed Agent Reference](docs/agents-reference.md)**
+**Agent references:** browse `agents/` and `core/agents/` (see `docs/README.md` for doc map).
 
 ## How It Works
 
@@ -202,7 +202,14 @@ CONFIDENCE high
 - **Custom agents** - Create specialized agents in `~/.supremepower/agents/`
 - **Platform adapters** - Add new platform integrations
 
-**[→ Architecture Deep Dive](docs/architecture.md)**
+**[→ Architecture Deep Dive](docs/ARCHITECTURE.md)**
+
+## Documentation
+
+- **Docs index:** [`docs/README.md`](docs/README.md)
+- **Recent changelog:** [`CHANGELOG.md`](CHANGELOG.md)
+- **Detailed migration log:** [`docs/changelogs/2026-04-20-ecosystem-and-flow-reliability.md`](docs/changelogs/2026-04-20-ecosystem-and-flow-reliability.md)
+- **Full release history:** [`RELEASE-NOTES.md`](RELEASE-NOTES.md)
 
 ## Platform Comparison
 

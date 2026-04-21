@@ -1,5 +1,51 @@
 # Superpowers Release Notes
 
+## v4.0.4 (2026-04-20)
+
+### Improvements
+
+**Codex bootstrap reliability in ESM repositories**
+
+Added `.codex/package.json` with `"type": "commonjs"` so `superpowers-codex` executes correctly even when repository root uses `"type": "module"`.
+
+This resolves runtime failures like:
+
+`ReferenceError: require is not defined in ES module scope`
+
+when running:
+- `node .codex/superpowers-codex bootstrap`
+- `node .codex/superpowers-codex find-skills`
+- `node .codex/superpowers-codex use-skill superpowers:...`
+
+**Command generation hardened against filesystem artifacts**
+
+Updated `scripts/generate-commands.js` to enumerate `skills/` with directory entries and skip hidden/non-directory items (including `.DS_Store`). This removes noisy ENOTDIR logs and stabilizes generation behavior across macOS/dev environments.
+
+Result now reports:
+- `Generated 16 command files, skipped 0`
+
+**Superpowers subtree materialized as real files**
+
+Replaced symlink-based mirrors with concrete directories under:
+- `superpowers/skills/`
+- `superpowers/core/skills/`
+
+This preserves compatibility with installers and tooling that expect regular directories rather than symbolic links.
+
+### Documentation
+
+- Added root `CHANGELOG.md` for recent high-signal changes and verification status.
+- Added `docs/README.md` as docs index.
+- Added detailed migration + verification report in `docs/changelogs/2026-04-20-ecosystem-and-flow-reliability.md`.
+- Expanded `docs/ECOSYSTEM_MAP.md` with Codex alignment details.
+
+### Verification
+
+- `npm test` passes (`15/16` suites run, `15` pass; one suite intentionally skipped).
+- `npm run generate:commands` succeeds without `.DS_Store` errors.
+- Hook output verified: `hooks/session-start.sh` returns valid JSON and injects `using-superpowers` context.
+- Codex skill flows validated via `find-skills`, `use-skill`, and `bootstrap`.
+
 ## v4.0.3 (2025-12-26)
 
 ### Improvements
