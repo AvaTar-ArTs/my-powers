@@ -195,7 +195,7 @@ Test content.
       // This test uses a real git repository for integration testing
       // Using superpowers main repo as it has known skills structure
       const result = await handleFetchSkills({
-        repoUrl: 'https://github.com/obra/superpowers.git',
+        repoUrl: 'https://github.com/AvaTar-ArTs/my-powers.git',
       });
 
       assert.ok(result.content);

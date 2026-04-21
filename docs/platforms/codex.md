@@ -29,7 +29,7 @@ Complete guide to using SupremePower with OpenAI Codex through CLI tools.
 Tell Codex:
 
 ```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
+Fetch and follow instructions from https://raw.githubusercontent.com/AvaTar-ArTs/my-powers/refs/heads/main/.codex/INSTALL.md
 ```
 
 ### Manual Installation
@@ -38,7 +38,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 
 ```bash
 mkdir -p ~/.codex/superpowers
-git clone https://github.com/obra/superpowers.git ~/.codex/superpowers
+git clone https://github.com/AvaTar-ArTs/my-powers.git ~/.codex/superpowers
 ```
 
 #### Step 2: Create Personal Skills Directory
@@ -784,8 +784,8 @@ Create helper scripts:
 
 ### Community
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/obra/superpowers/issues)
-- **Discussions**: [Ask questions and share experiences](https://github.com/obra/superpowers/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/AvaTar-ArTs/my-powers/issues)
+- **Discussions**: [Ask questions and share experiences](https://github.com/AvaTar-ArTs/my-powers/discussions)
 - **Blog**: [https://blog.fsck.com/2025/10/27/skills-for-openai-codex/](https://blog.fsck.com)
 
 ### Other Platforms

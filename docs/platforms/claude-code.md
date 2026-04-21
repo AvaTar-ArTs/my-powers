@@ -52,7 +52,7 @@ For plugin developers:
 }
 
 # Clone to local directory
-git clone https://github.com/obra/superpowers ~/superpowers
+git clone https://github.com/AvaTar-ArTs/my-powers ~/superpowers
 ```
 
 ### Post-Installation
@@ -663,8 +663,8 @@ All share the same 14 skills and 13 agents.
 
 ### Community
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/obra/superpowers/issues)
-- **Discussions**: [Ask questions and share experiences](https://github.com/obra/superpowers/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/AvaTar-ArTs/my-powers/issues)
+- **Discussions**: [Ask questions and share experiences](https://github.com/AvaTar-ArTs/my-powers/discussions)
 - **Blog**: [https://blog.fsck.com](https://blog.fsck.com)
 
 ### Other Platforms

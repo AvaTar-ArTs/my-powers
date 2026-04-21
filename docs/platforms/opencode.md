@@ -28,7 +28,7 @@ Complete guide to using SupremePower with OpenCode.ai through the plugin system.
 Tell OpenCode:
 
 ```
-Clone https://github.com/obra/superpowers to ~/.config/opencode/superpowers, then create directory ~/.config/opencode/plugin, then symlink ~/.config/opencode/superpowers/.opencode/plugin/superpowers.js to ~/.config/opencode/plugin/superpowers.js, then restart opencode.
+Clone https://github.com/AvaTar-ArTs/my-powers to ~/.config/opencode/superpowers, then create directory ~/.config/opencode/plugin, then symlink ~/.config/opencode/superpowers/.opencode/plugin/superpowers.js to ~/.config/opencode/plugin/superpowers.js, then restart opencode.
 ```
 
 ### Manual Installation
@@ -37,7 +37,7 @@ Clone https://github.com/obra/superpowers to ~/.config/opencode/superpowers, the
 
 ```bash
 mkdir -p ~/.config/opencode/superpowers
-git clone https://github.com/obra/superpowers.git ~/.config/opencode/superpowers
+git clone https://github.com/AvaTar-ArTs/my-powers.git ~/.config/opencode/superpowers
 ```
 
 #### Step 2: Register Plugin
@@ -846,8 +846,8 @@ my-template/
 
 ### Community
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/obra/superpowers/issues)
-- **Discussions**: [Ask questions and share experiences](https://github.com/obra/superpowers/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/AvaTar-ArTs/my-powers/issues)
+- **Discussions**: [Ask questions and share experiences](https://github.com/AvaTar-ArTs/my-powers/discussions)
 - **OpenCode Docs**: [https://opencode.ai/docs/](https://opencode.ai/docs/)
 
 ### Other Platforms

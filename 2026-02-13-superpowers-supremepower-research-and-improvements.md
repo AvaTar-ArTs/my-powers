@@ -83,7 +83,7 @@ Phase 1–style inventory of where these live and how they relate.
 - **Incorporation design:** ~/.cursor/docs/plans/2026-02-13-supremepower-incorporation-design.md  
 - **Narrative blueprint:** ~/.cursor/docs/plans/2026-02-13-supremepower-incorporation-narrative.md  
 - Jesse’s blog: https://blog.fsck.com/2025/10/09/superpowers/  
-- obra/superpowers README: https://github.com/obra/superpowers  
+- obra/superpowers README: https://github.com/AvaTar-ArTs/my-powers  
 - Exploration report: ~/iterm2/docs/exploration_superpowers_ecosystems_2026-02-10.md  
 - Cursor bootstrap: ~/.cursor/skills/cursor-workflow-bootstrap/SKILL.md  
 - Using Cursor skills: ~/.cursor/skills/using-cursor-skills/SKILL.md  

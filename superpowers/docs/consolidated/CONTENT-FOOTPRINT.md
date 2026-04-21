@@ -1,13 +1,13 @@
 # Superpowers clone consolidation footprint
 
 **Date:** 2026-04-20  
-**Purpose:** One repo (`supremepowers`) holds **unique** material only—no byte-identical duplicate docs, and merged “richest” variants where clones diverged.
+**Purpose:** One repo ([`my-powers`](https://github.com/AvaTar-ArTs/my-powers)) holds **unique** material only—no byte-identical duplicate docs, and merged “richest” variants where clones diverged.
 
 ## Sources compared (SHA-256 over file bytes)
 
 | Root | Path |
 |------|------|
-| This repo | `/Users/steven/supremepowers` |
+| This repo | `https://github.com/AvaTar-ArTs/my-powers` |
 | Gemini extension | `/Users/steven/.gemini/extensions/supremepower` |
 | Codex install | `/Users/steven/.codex/superpowers` |
 | Skills-only tree | `/Users/steven/iterm2/Codex/superpowers` |
